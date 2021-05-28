@@ -14,19 +14,19 @@ help_and_exit() {
         Arguments will be passed to pacman or pkgfile after translation:
 
         For 64-bit MSYS2 shell:
-		    name:i means i686-only
+            name:i means i686-only
             name:x means x86_64-only
             name:z means clang-i686-only
             name:c means clang-x86_64-only
-		    name:u means ucrt-x86_64-only
-			name:a means clang-aarch64-only
+            name:u means ucrt-x86_64-only
+            name:a means clang-aarch64-only
 
         For MSYS shell:
-		    name:m means mingw-w64
+            name:m means mingw-w64
             name:l means mingw-w64-clang
 			
         For all shells:
-		    name: disables any translation for name
+            name: disables any translation for name
             repository::name means repository/name
 
     Commands:
